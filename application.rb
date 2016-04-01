@@ -1,5 +1,5 @@
-require 'sinatra'
-
-get '/' do
-  erb :home
+class Application < Sinatra::Base
+  get '/' do
+    erb :home
+  end
 end
