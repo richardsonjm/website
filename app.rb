@@ -11,3 +11,11 @@ end
 get '/real_estate' do
   erb :real_estate
 end
+
+get '/briefs' do
+  erb :briefs
+end
+
+get '/market_research' do
+  erb :market_research
+end
